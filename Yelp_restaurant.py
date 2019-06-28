@@ -1,7 +1,8 @@
 
 # coding: utf-8
 
-# #  Yelp data Kaggle chanllege
+# #  Yelp data Kaggle chanllege.
+## This code the EDA for Yelp-restaurants data. Data in one selected city is further annalyzed with recommender and filter system.
 
 
 # In[2]:
@@ -756,7 +757,7 @@ recommend_final
 # In[30]:
 
 
-##Show recommended restaurants on map
+##Show recommended restaurants on map based on the users preferences
 
 rcd_lat=recommend_final['latitude'].mean()
 rcd_lon=recommend_final['longitude'].mean()
